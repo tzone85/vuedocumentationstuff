@@ -60,6 +60,13 @@ var app5 = new Vue({
     }
 });
 
+var app6 = new Vue({
+    el: '#app-6',
+    data: {
+        message: "Hello Vue"
+    }
+});
+
 // app.message = 'You are the best Dad, Friend, Spouse and partner ever';
 // app.seen = false;
 // app.todos.push({text: 'Added a new element'})

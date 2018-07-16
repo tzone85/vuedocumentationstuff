@@ -8,7 +8,8 @@
 
     <link rel="stylesheet" href="index.css">
     <!-- development version, includes helpful console warnings -->
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+    <script src="vue/vue.js"></script>
 
 </head>
 <body>
@@ -40,6 +41,11 @@
     <div id="app-5">
         <p>{{ message2 }}</p>
         <button v-on:click="reverseMessage2">Reverse Message</button>
+    </div>
+
+    <div id="app-6">
+        <p>{{ message }}</p>
+        <input v-model="message">
     </div>
 
     <script src="index.js"></script>
