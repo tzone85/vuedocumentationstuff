@@ -47,6 +47,19 @@ var app4 = new Vue({
     }
 });
 
+var app5 = new Vue({
+    el: '#app-5',
+    data: {
+        message2: "Hello Vuejs lovers!!!"
+    },
+
+    methods: {
+        reverseMessage2: function() {
+            this.message2.split('').reverse().join('')
+        }
+    }
+});
+
 // app.message = 'You are the best Dad, Friend, Spouse and partner ever';
 // app.seen = false;
 // app.todos.push({text: 'Added a new element'})
