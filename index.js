@@ -27,6 +27,26 @@ var app2 = new Vue({
     }
 });
 
+var app3 = new Vue({
+    el: '#app-3',
+
+    data: {
+        seen: true
+    }
+});
+
+var app4 = new Vue({
+    el: '#app-4',
+
+    data: {
+        todos: [
+            {text: 'Learn Javascript From Heaven'},
+            {text: 'Master this bitch'},
+            {text: 'Flippen dominate it and call it my BEEAAAA....!!!'}
+        ]
+    }
+});
+
 // app.message = 'You are the best Dad, Friend, Spouse and partner ever';
 // app.seen = false;
 // app.todos.push({text: 'Added a new element'})

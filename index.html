@@ -13,22 +13,6 @@
 </head>
 <body>
     <div id="app">
-        <!-- first example -->
-        <!-- {{ message }} -->
-
-        <!-- <span v-bind:title = "message">Hover your mouse over me for a few seconds
-                to see my dynamically bound title!</span> -->
-        
-        <!-- second example for if sttements -->
-        <!-- <span v-if="seen">Now you see me</span> -->
-
-        <!-- third example v-for -->
-
-        <!-- <ol>
-            <li v-for="todo in todos">
-                {{ todo.text}}
-            </li>
-        </ol> -->
 
         <p>{{ message }}</p>
 
@@ -39,6 +23,18 @@
             <span v-bind:title = "message">Hover your mouse over me for a few seconds
                     to see my dynamically bound title!</span>
          
+    </div><br/>
+
+    <div id="app-3">
+        <span v-if="seen">Now you see me</span>
+    </div><br/>
+
+    <div id="app-4">
+        <span v-for="todo in todos">
+            <pre>
+            {{ todo.text }}
+        </pre>
+        </span>
     </div>
 
     <script src="index.js"></script>
